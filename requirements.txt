@@ -1,0 +1,7 @@
+django_recaptcha==4.0.0
+matplotlib==3.7.2
+Pillow==10.0.0
+Pillow==10.2.0
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.64.1
