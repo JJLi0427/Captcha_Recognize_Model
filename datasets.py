@@ -70,4 +70,8 @@ if __name__ == '__main__':
     parser.add_argument('--data_size', type=int, required=True, help='Total number of images in the dataset')
     parser.add_argument('--test_ratio', type=float, required=True, help='The ratio of test set in the dataset')
     args = parser.parse_args()
+    if not os.path.exists("./data"):
+        os.makedirs("./data")
+        os.makedirs("./data/test")
+        os.makedirs("./data/train")
     create_datasets(args.data_size, args.test_ratio)

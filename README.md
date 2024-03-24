@@ -1,7 +1,7 @@
 # CNN_captcha_recognition
 This project uses a Convolutional Neural Network (CNN) to recognize captchas. The model is implemented using PyTorch and the captcha dataset is generated using the captcha library.  
 
-![Model Diagram](./show.png)  
+![Model Diagram](./display/show.png)  
 
 ## Project Structure
 
@@ -41,14 +41,13 @@ You can test the model on a single image or on the test dataset using the follow
 ```bash
 python eval.py --modelpath {} --mode test_model
 python eval.py --modelpath {} --mode test_picture --picpath {}
-
 ```
 
 ## Results
 
 The following image shows the performance of the model:
 
-![Evaluation Results](./eval.png)
+![Evaluation Results](./display/eval.png)
 
 ## Relate blog
 <https://blog.csdn.net/lijj0304/article/details/132446975>
